@@ -1,0 +1,1 @@
+fastapi>=0.110\nuvicorn[standard]>=0.27\npython-multipart>=0.0.9\npydantic>=2.6\npydantic-settings>=2.2\nopenai>=1.30\nhttpx>=0.27\nPillow>=10.0\n

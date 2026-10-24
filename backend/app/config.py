@@ -1,0 +1,1 @@
+from pydantic_settings import BaseSettings, SettingsConfigDict\nclass Settings(BaseSettings):\n    openai_api_key: str = ''\n    openai_model: str = 'gpt-4o-mini'\n    model_config = SettingsConfigDict(env_file='.env', extra='ignore')\nsettings = Settings()\n
